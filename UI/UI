@@ -1,0 +1,42 @@
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRem_c2UVBTZckm9rh1AFynK8zXsEGpEsCaZg&usqp=CAU
+
+UI:User Interface
+Interface 
+
+HTML
+CSS
+BootStrap
+React
+WordPress
+Figma
+
+
+HTML : Hyper Text Markup Language
+Website : Collection of webpages
+WebPages : a page that contains some data / information over webpages
+
+Time Bereners Lee 
+1991
+to build static websites
+HTML 4  : Static
+HTML 5 : Dynamic
+only provides structure to your websites
+html structure : head , body
+structure / skeleton to our website
+
+
+file create : extension
+.html
+
+FILES : 
+Headings
+Tags in HTML ARE
+- H1 - Heading level 1
+- H2 - Heading Level 2
+- H3 - Heading Level 3
+- H4 - Heading Level 4
+- H5 - Heading Level 5
+- H6 - Heading Level 6
+Paragraphs <p> </p>
+Links <a href="url">Link text</a>
+Images <img src="image_path" alt="Image Description"/>
