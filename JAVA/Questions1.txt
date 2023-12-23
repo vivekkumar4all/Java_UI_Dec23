@@ -1,0 +1,13 @@
+1. WAP to calculate simple interest. (p*r*t)/100
+
+2. WAP to calculate area and perimeter of a rectangle.
+
+7. WAP to calculate net salary of employee, take basic salary of employee and calculate
+ 	
+    HRA 30% of basic salary, 
+    DA 20% of the basic salary, 
+    TA 10% of the basic salary and 
+    Net salary is sum up of basic salary + allowances(HRA + DA + TA) - PF.
+    PF is 1400 fix.
+
+9. Find out entered number is Positive or Negative Number.
