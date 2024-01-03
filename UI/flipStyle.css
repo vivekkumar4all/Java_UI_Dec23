@@ -1,3 +1,6 @@
+body{
+    margin: 0px 0px;
+}
 ul{
     list-style: none;
 }
@@ -20,47 +23,84 @@ ul > li{
 
 #sec1{
     width: 100%;
+    padding: 5px 0px;
+    background-color: #fff;
+    height: 60px;
 }
 
 .col1{
-    width: 55%;
+    margin-top: 10px;
+    width: 58%;
 }
 
 .logo{
-    width: 25%;
+    margin-top: 5px;
+    width: 20%;
 }
 
 img{
     width: 100%;
 }
 .search{
-    width: 70%;
+    width: 75%;
 }
 
 .search input[type="text"]{
     width: 100%;
-    height: 25px;
-    border-radius: 3px;
-    border-color: transparent;
-    background-color: rgb(171, 200, 226);
+    height: 28px;
+    border-radius: 5px;
+    padding-left: 5%;
     margin-left: 25px;
+    font-size: 1em;
+    border-color: transparent;
+    background-color: #e6edfc;
+    background-image: url('https://icon-library.com/images/search-for-icon/search-for-icon-1.jpg'); /* Replace 'path/to/search-icon.png' with the actual path to your search icon image file */
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px; /* Adjust the size of the search icon as needed */
+    background-position-x: 1%;
 }
 
 .col2{
-    width: 42%;
+    margin-top: 5px;
+    width: 40%;
+}
+
+.col2 > ul >li{
+    display: inline-block;
+    width: 10%;
+    padding: 0px 5px;
+    /* font-size: large; */
+    margin-right: 30px;
+    font-size: 1.2em;
 }
 
 
+/* =======================sec2========================= */
+#sec2{
+    background-color: #e6edfc;
+    margin-top: 5px;
+    padding: 1%;
+}
 
+#sec2 .product img{
+    height: 70px;
+    width: 70px;
+}
 
+#sec2 .product{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    margin-left: 5px;
+}
 
+#sec2 h4{
+    color:#161616 ;
+    font-weight: 500;
+    margin-top: 0px;
+}
 
-
-
-
-
-
-
-
-
-
+.banner{
+    margin-top: 5px;
+}
