@@ -104,3 +104,44 @@ img{
 .banner{
     margin-top: 5px;
 }
+
+/* ============sec3============ */
+#sec3{
+    background-color: #e6edfc;
+    margin-top: 5px;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+
+}
+
+#sec3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#sec3 h4{
+    font-size: 1.2em;
+    color: black;
+    /* padding-top: -5px; */
+}
+#sec3 h3{
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-top: -25px
+}
+#sec3 .product{
+    float: left;
+    border: 1px solid gainsboro;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 2.5%;
+    background-color: #fff;
+
+}
+
+#sec3 .product img{
+    padding-top: 10px;
+    width: 170px;
+    height: 120px;
+}
