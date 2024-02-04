@@ -1,34 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <form action="#">
-        <!-- <label for="name">Name</label>
-        <input type="text">
-        <label for="pswd">Password</label>
-        <input type="password"> -->
-        <table>
-            <tr>
-                <td>
-                    <label for="name">Name</label>
-                </td>
-                <td>
-                    <input type="text">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="pwd">Password</label>
-                </td>
-                <td>
-                    <input type="">
-                </td>
-            </tr>
-        </table>
+    <style>
+      /* input {
+        border: 2px solid red;
+        width: 20px;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <form action="">
+      <label for="reg">Registration</label>
+      <input type="text" id="reg" name="registration" autofocus />
+      <br />
+      <label for="fname">F_Name</label>
+      <input
+        type="text"
+        id="fname"
+        name="user_fname"
+        required
+        autocomplete="off"
+      />
+      <br />
+      <label for="mname">M_Name</label>
+      <input type="text" id="mname" name="user_mname" />
+      <br />
+      <label for="lname">L_Name</label>
+      <input type="text" id="lname" name="user_lname" />
+      <br />
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" required />
+      <br />
+      <label for="mail">Email</label>
+      <input type="email" id="mail" name="user_email" />
+      <input type="submit" />
+    </form> -->
+
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="reg">Registration</label></td>
+          <td>
+            <input
+              type="text"
+              name="user_reg"
+              id="reg"
+              autofocus
+              placeholder="Opt for subject"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="fname">F_Name</label></td>
+          <td>
+            <input
+              type="text"
+              id="fname"
+              name="user_fname"
+              required
+              autocomplete="off"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="lname">L_Name</label></td>
+          <td>
+            <input type="text" id="lname" name="user_lname" value="Sunil" readonly/>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="mail">Email</label></td>
+          <td><input type="email" id="mail" name="user_email" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="age">Age</label></td>
+          <td>
+            <input type="number" name="user_Age" id="age" min="18" max="60" />
+          </td>
+        </tr>
+        <tr>
+          <td>Personal Details</td>
+          <td>
+            <input type="radio" id="hide" name="display" />
+            <label for="hide">Hide</label>
+            <input type="radio" id="show" name="display" />
+            <label for="show">Show</label>
+          </td>
+        </tr>
+        <tr>
+            <td><label for="DateOfBirth">DOB</label></td>
+            <td><input type="datetime"></td>
+        </tr>
+        <tr>
+          <td>Search here</td>
+          <td><input type="search" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" /></td>
+        </tr>
+      </table>
     </form>
-</body>
+  </body>
 </html>
+
+<!-- tues wed thurs -->
