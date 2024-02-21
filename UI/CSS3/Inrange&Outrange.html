@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        /* border: 2px solid black; */
+        border: none;
+      }
+      input:in-range {
+        /* background-color: green; */
+        border: 3px solid green;
+      }
+      input:out-of-range {
+        /* background-color: red; */
+        border: 3px solid red;
+      }
+
+      input:in-range + .msg::after {
+        content: "Valid input";
+      }
+
+      input:out-of-range + .msg::after {
+        content: "Invalid age";
+      }
+      p::after {
+        content: "Remember the points";
+        background-color: yellow;
+      }
+      p::before {
+        content: "Must see";
+        background-color: rgb(93, 62, 163);
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <label for="age">AGE</label>
+      <input type="number" id="age" name="age" min="18" max="60" />
+      <span class="msg"></span>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        quisquam explicabo numquam unde. Iusto hic animi, veritatis quasi
+        repudiandae cum porro deserunt fugiat in, ducimus repellendus sed
+        consectetur architecto! Illo.
+      </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        display: block;
+      }
+      a::after {
+        content: "[" attr(title) "]";
+        color: red;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="https://www.google.com" title="Link1">Visit Google</a>
+      <a href="https://www.youtube.com" title="Link2">Visit Youtube</a>
+      <a href="https://www.linkedin.com" title="Link3">Visit LinkedIn</a>
+    </div>
+  </body>
+</html>
