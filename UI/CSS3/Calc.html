@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        height: 100px;
+        width: 100px;
+        background-color: maroon;
+      }
+      .child {
+        height: 90%; 
+        width: 90%;
+        width: calc(90% - 10px);
+        height: calc(90% - 20px);
+
+        margin: 50px auto;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child"></div>
+    </div>
+  </body>
+</html>
