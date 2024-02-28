@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        /* animation-name: walk;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-direction: reverse;
+        animation-direction: alternate;
+        animation-direction: alternate-reverse;
+        animation-timing-function: linear; */
+        animation: walk 5s infinite linear;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      @keyframes walk {
+        /* from */
+        0% {
+          transform: translateX(0px);
+        }
+        /* to */
+        100% {
+          transform: translateX(1200px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="XOsX copy.gif" alt="" />
+    </div>
+  </body>
+</html>
