@@ -18,6 +18,6 @@ public class Calc {
 
 //solve all the ques using scanner
 
-// find the sum, sub, mul and division
+//find the sum, sub, mul and division
 //ask the student its name and his marks in 3 subject
-//ask employee his name and his salary and calcualte the HRA(20%).
+//ask employee his name and his salary and calcualte the HRA(20%). House Rent Allowance
